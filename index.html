@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <form id="password-form">
+            <div class="input-group">
+                <label for="favorite-thing">Favorite Thing:</label>
+                <input type="text" id="favorite-thing" name="favorite-thing" required>
+            </div>
+            <button type="submit">Generate Password</button>
+        </form>
+        <div id="result" class="result">
+            <h2>Generated Password:</h2>
+            <p id="password-output">-</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
